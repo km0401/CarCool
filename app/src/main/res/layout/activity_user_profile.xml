@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Profile"
+    android:background="@drawable/custom_background_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_settings_icon"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="220dp"
+        />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_profile_account"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Newcomer"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile_verify"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_settings_icon_black"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="140dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile_verify_id"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/blue_main"
+        android:textSize="23dp"
+        android:gravity="left"
+        android:layout_marginLeft="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+        android:layout_marginTop="420dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_profile_check_icon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_profile_phone"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+        android:layout_marginTop="460dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_profile_check_icon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_profile_email"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/grey_for_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile_about"
+        android:layout_marginTop="580dp"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile_write_bio"
+        android:layout_marginTop="620dp"
+        android:textColor="@color/blue_main"
+        android:textSize="23dp"
+        android:gravity="left"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile_preferences"
+        android:layout_marginTop="660dp"
+        android:textColor="@color/blue_main"
+        android:textSize="23dp"
+        android:gravity="left"
+        android:layout_marginLeft="50dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>

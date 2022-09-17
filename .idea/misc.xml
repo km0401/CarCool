@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/custom_background_blue.xml" value="0.12" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.12" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/user_profile_account.xml" value="0.12" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/user_profile_check_icon.xml" value="0.12" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/user_settings_icon.xml" value="0.12" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_user_profile.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
