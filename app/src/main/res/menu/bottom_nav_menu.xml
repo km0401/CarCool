@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Search"
+        android:icon="@drawable/search_icon"
+        android:id="@+id/search_navbar"/>
+    <item android:title="Publish"
+        android:icon="@drawable/add_icon"
+        android:id="publish_navbar"/>
+    <item android:title="My Rides"
+        android:icon="@drawable/rides_icon"
+        android:id="rides_navbar"/>
+    <item android:title="Inbox"
+        android:icon="@drawable/inbox_icon"
+        android:id="inbox_navbar"/>
+    <item android:title="Profile"
+        android:icon="@drawable/user_icon"
+        android:id="profile_navbar"/>
+</menu>

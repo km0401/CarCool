@@ -10,4 +10,7 @@
     <string name="user_profile_about">About you</string>
     <string name="user_profile_write_bio">Write my mini bio</string>
     <string name="user_profile_preferences">Add my preferences</string>
+    <string name="custom_dialog">Add Mini Bio</string>
+    <string name="name">Write your bio here</string>
+    <string name="submit">Submit</string>
 </resources>

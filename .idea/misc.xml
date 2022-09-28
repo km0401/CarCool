@@ -7,12 +7,15 @@
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/custom_background_blue.xml" value="0.12" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/custom_background_blue_long.xml" value="0.12" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.12" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/search_icon.xml" value="0.118" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/user_profile_account.xml" value="0.12" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/user_profile_check_icon.xml" value="0.12" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/user_settings_icon.xml" value="0.12" />
-        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_landing_page.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_landing_page.xml" value="0.22" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_user_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/activity_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/layout/custom_dialog.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1703125" />
       </map>
     </option>
   </component>
