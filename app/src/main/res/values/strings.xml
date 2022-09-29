@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">android_dev_carcool</string>
+    <string name="app_name">CarCool</string>
     <string name="profile">Profile</string>
     <string name="user_name">Khushi Mahawar</string>
     <string name="user_type">Newcomer</string>
@@ -13,4 +13,5 @@
     <string name="custom_dialog">Add Mini Bio</string>
     <string name="name">Write your bio here</string>
     <string name="submit">Submit</string>
+    <string name="landing_page_password">Already have an account?</string>
 </resources>

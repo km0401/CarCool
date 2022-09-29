@@ -24,8 +24,16 @@ public class User_Profile extends AppCompatActivity {
 
         addBio = findViewById(R.id.add_bio);
         miniBio = findViewById(R.id.mini_bio);
+        add_preferences = findViewById(R.id.add_preferences);
 
         addBio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showCustomDialog();
+            }
+        });
+
+        add_preferences.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showCustomDialog();

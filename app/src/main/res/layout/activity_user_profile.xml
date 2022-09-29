@@ -9,7 +9,8 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/custom_background_blue">
+        android:background="@drawable/custom_background_blue"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_nav_menu">
 
 <!--        <RelativeLayout-->
 <!--            android:layout_width="wrap_content"-->
@@ -87,7 +88,6 @@
                 android:layout_marginLeft="140dp"
                 android:layout_marginTop="360dp"
                 android:src="@drawable/user_settings_icon_black" />
-
 
         </LinearLayout>
 
@@ -179,7 +179,7 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="650dp"
                 android:gravity="left"
-                android:text="@string/user_profile_write_bio"
+                android:text=""
                 android:textColor="@color/blue_main"
                 android:textSize="23dp" />
 
@@ -199,7 +199,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:menu="@menu/bottom_nav_menu"
-            android:layout_marginTop="675dp"/>
+            android:layout_marginTop="630dp"
+            app:labelVisibilityMode="labeled"/>
 
 </FrameLayout>
 </ScrollView>

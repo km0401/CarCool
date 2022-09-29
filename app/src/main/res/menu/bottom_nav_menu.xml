@@ -6,14 +6,14 @@
         android:id="@+id/search_navbar"/>
     <item android:title="Publish"
         android:icon="@drawable/add_icon"
-        android:id="publish_navbar"/>
+        android:id="@+id/publish_navbar"/>
     <item android:title="My Rides"
         android:icon="@drawable/rides_icon"
-        android:id="rides_navbar"/>
+        android:id="@+id/rides_navbar"/>
     <item android:title="Inbox"
         android:icon="@drawable/inbox_icon"
-        android:id="inbox_navbar"/>
+        android:id="@+id/inbox_navbar"/>
     <item android:title="Profile"
         android:icon="@drawable/user_icon"
-        android:id="profile_navbar"/>
+        android:id="@+id/profile_navbar"/>
 </menu>
