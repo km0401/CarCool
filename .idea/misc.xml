@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_confirm_ride.xml" value="0.1761436511329628" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_landing_page.xml" value="0.16673792218896966" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_login_page.xml" value="0.1761436511329628" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_main.xml" value="0.16673792218896966" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_request_sent.xml" value="0.17699871740059855" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_search_results.xml" value="0.2" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_signup_page.xml" value="0.20436083796494228" />
+        <entry key="..\:/CarCool/app/src/main/res/layout/activity_user_profile.xml" value="0.16673792218896966" />
+        <entry key="..\:/CarCool/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16673792218896966" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/blue_round_corner_button.xml" value="0.12" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/custom_background_blue.xml" value="0.12" />
         <entry key="..\:/Users/mahaw/AndroidStudioProjects/android_dev_carcool/app/src/main/res/drawable/custom_background_blue_long.xml" value="0.12" />
