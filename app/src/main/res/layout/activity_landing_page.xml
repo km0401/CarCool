@@ -89,14 +89,13 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/search_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/blue_main"
             android:layout_marginTop="160dp"
+            android:backgroundTint="@color/blue_main"
             android:text="Search"
-            android:id="@+id/search_button"
-            />
+            android:textColor="@color/white" />
     </androidx.cardview.widget.CardView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

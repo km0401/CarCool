@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Landing_Page">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/grey_for_text"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhiwadi, Rajasthan"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gurgaon"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="right"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Tomorrow, 2 Passengers"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="left"
+            android:textStyle="normal"
+            />
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bhiwadi"
+                android:layout_margin="30dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs. 200"
+                android:layout_margin="30dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="right"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="left"
+                android:text="07:10"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08:20"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="40dp"
+                android:gravity="left"
+                android:paddingTop="20dp"
+                android:paddingRight="110dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="40dp"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingRight="139dp"
+                android:text="Gurgaon"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="normal" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhiwadi"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs. 200"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="right"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07:10"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="left"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08:20"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="40dp"
+            android:gravity="left"
+            android:paddingTop="20dp"
+            android:paddingRight="110dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="40dp"
+            android:gravity="right"
+            android:paddingTop="20dp"
+            android:paddingRight="139dp"
+            android:text="Gurgaon"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhiwadi"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs. 200"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="right"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07:10"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="left"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08:20"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="40dp"
+            android:gravity="left"
+            android:paddingTop="20dp"
+            android:paddingRight="110dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="40dp"
+            android:gravity="right"
+            android:paddingTop="20dp"
+            android:paddingRight="139dp"
+            android:text="Gurgaon"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhiwadi"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs. 200"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="right"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07:10"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="left"
+            android:textStyle="normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08:20"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="40dp"
+            android:gravity="left"
+            android:paddingTop="20dp"
+            android:paddingRight="110dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="40dp"
+            android:gravity="right"
+            android:paddingTop="20dp"
+            android:paddingRight="139dp"
+            android:text="Gurgaon"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="720dp"
+        android:backgroundTint="@color/blue_main"
+        android:text="Filter"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="825dp"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

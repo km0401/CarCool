@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Profile"
+    >
+    <ImageView
+        android:id="@+id/viewimage"
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@drawable/img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text=" Tue 06 Sept"
+        android:textColor="@color/black"
+        android:textSize="25dp" />.
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text=" Check Details and Book !"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text=" 07:10              Bhiwadi"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text=" 08:20              Gurugram"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/distance"
+        android:layout_marginTop="187dp"
+        android:layout_marginLeft="40dp"
+        />
+    <ImageView
+        android:id="@+id/imageview2"
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="240dp"
+        app:srcCompat="@drawable/grey_line" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:gravity="center"
+        android:text=" 2 Seats : Rs. 200.00 /-"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="370dp"
+            android:gravity="center"
+            android:text=" Pay in Car"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="370dp"
+            android:gravity="center"
+            android:text=" CASH"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/grey_line" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue_main"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="150dp"
+        android:text="BOOK"
+        android:id="@+id/search"
+        />
+
+</RelativeLayout>
