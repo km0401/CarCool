@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Profile"
+    android:background="@drawable/green_background">
+
+    <ImageView
+        android:id="@+id/request"
+        android:layout_width="327dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/request_sent"/>
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="Request Sent !"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/OK"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="@color/blue_main"
+        android:text=" OK "
+        android:textColor="@color/white" />
+</RelativeLayout>
