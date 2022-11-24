@@ -1,4 +1,6 @@
 package com.example.android_dev_carcool;
 
-public class Request_Sent {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Request_Sent extends AppCompatActivity {
 }
