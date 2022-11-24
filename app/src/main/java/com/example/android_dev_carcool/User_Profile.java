@@ -10,7 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class User_Profile extends AppCompatActivity {
+
+//    private User_Profile binding;
 
     TextView addBio;
     TextView miniBio;
@@ -22,10 +26,24 @@ public class User_Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
 
+//        binding = User_Profile.inflate(getLayoutInflater());
+
+//        BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_nav_menu);
+//        bottomNavigationView.setSelectedItemId(R.id.search);
+
+
         addBio = findViewById(R.id.add_bio);
         miniBio = findViewById(R.id.mini_bio);
+        add_preferences = findViewById(R.id.add_preferences);
 
         addBio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showCustomDialog();
+            }
+        });
+
+        add_preferences.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showCustomDialog();
@@ -58,4 +76,6 @@ public class User_Profile extends AppCompatActivity {
         });
         dialog.show();
     }
+
+
 }

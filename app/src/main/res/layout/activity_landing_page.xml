@@ -32,58 +32,55 @@
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="340dp"
         app:cardCornerRadius="20dp">
 
         <EditText
+            android:id="@+id/leaving_from_text"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:hint="Leaving From"
-            android:padding="20dp"
-            android:id="@+id/leaving_from_text"
-            />
+            android:padding="20dp" />
 
         <EditText
+            android:id="@+id/going_to_text"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_marginTop="50dp"
             android:hint="Going to"
-            android:padding="20dp"
-            android:id="@+id/going_to_text"
-            />
+            android:padding="20dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/date_input"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="107dp"
+                android:background="@color/white"
                 android:hint="Date"
                 android:paddingLeft="20dp"
-                android:background="@color/white"
-                android:paddingTop="10dp"
-                android:id="@+id/date_input"
-                />
+                android:paddingTop="10dp" />
 
             <View
                 android:layout_width="2dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="115dp"
-                android:background="@color/grey_for_text"/>
+                android:background="@color/grey_for_text" />
 
             <EditText
+                android:id="@+id/passenger_input"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="107dp"
+                android:background="@color/white"
                 android:hint="1"
                 android:paddingLeft="20dp"
-                android:paddingTop="10dp"
-                android:background="@color/white"
-                android:id="@+id/passenger_input"
-                />
+                android:paddingTop="10dp" />
 
         </LinearLayout>
 
