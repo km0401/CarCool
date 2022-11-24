@@ -29,6 +29,7 @@
             app:srcCompat="@drawable/img" />
 
     </LinearLayout>
+
     <TextView
         android:layout_width="389dp"
         android:layout_height="147dp"

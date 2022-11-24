@@ -85,6 +85,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="130dp"
@@ -93,8 +94,8 @@
             android:gravity="center"
             android:text=" Pay in Car"
             android:textColor="@color/black"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="130dp"
@@ -104,7 +105,7 @@
             android:text=" CASH"
             android:textColor="@color/black"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
     <ImageView
