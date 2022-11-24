@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drop_Off_Publish_Ride"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/goBackIconPricePublishPage"
+            android:layout_width="45dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imageLogoPricePublish"
+            android:layout_width="70dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/img" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="147dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Where do you want to drop off the passengers?"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next_arrow_icon"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="270dp"/>
+
+</RelativeLayout>

@@ -14,4 +14,6 @@
     <string name="name">Write your bio here</string>
     <string name="submit">Submit</string>
     <string name="landing_page_password">Already have an account?</string>
+    <string name="price_per_seat_publish">Edit price per seat.</string>
+    <string name="no_of_passenger_publish">So how many CarCool passengers can you take ?</string>
 </resources>

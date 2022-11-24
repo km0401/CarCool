@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/goBackIconLoginPage"
             android:layout_width="45dp"
             android:layout_height="200dp"
             android:layout_marginLeft="14dp"
@@ -21,7 +21,7 @@
             app:srcCompat="@drawable/back" />
 
         <ImageView
-            android:id="@+id/viewimage"
+            android:id="@+id/imageLogo"
             android:layout_width="70dp"
             android:layout_height="200dp"
             android:layout_marginLeft="270dp"
@@ -62,7 +62,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/landing_page_password"
+        android:text="Forgot Password?"
         android:layout_marginTop="500dp"
         android:textColor="@color/blue_main"
         android:textSize="23dp"
@@ -76,7 +76,8 @@
         android:backgroundTint="@color/blue_main"
         android:background="@drawable/blue_round_corner_button"
         android:layout_marginTop="600dp"
-        android:text="Search"
+        android:text="Login"
+        android:id="@+id/login_page_button"
         />
 
 </RelativeLayout>
