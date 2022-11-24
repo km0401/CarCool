@@ -12,9 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_dev_carcool"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:ignore="MissingClass">
+        <activity
+            android:name=".PublishReturnTripActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PublishLeavingFromActivity"
+            android:exported="false" />
         <activity
             android:name=".Drop_Off_Publish_Ride"
+            android:exported="false" />
+        <activity
+            android:name=".Pick_Date_Publish"
             android:exported="false" />
         <activity
             android:name=".Landing_Page"

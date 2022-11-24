@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "999095165874",
+    "project_id": "android-dev-carcool",
+    "storage_bucket": "android-dev-carcool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999095165874:android:5fd3222d311db07e60faab",
+        "android_client_info": {
+          "package_name": "com.example.android_dev_carcool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999095165874-67gg83uhds9do04f2rb0g1e69s9kjn8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ADBQcSz8d1noO0oiDC5LKSBcI5JYkpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999095165874-67gg83uhds9do04f2rb0g1e69s9kjn8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

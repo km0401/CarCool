@@ -11,15 +11,15 @@ import java.util.Calendar;
 
 public class Pick_Date_Publish extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     TextView tvDate;
-    Button btPickDate;
+    Button btnPickDate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tvDate = findViewById(R.id.tvSelectedDate);
-        btPickDate = findViewById(R.id.btnPickDate);
-        btPickDate.setOnClickListener(new View.OnClickListener() {
+        btnPickDate = findViewById(R.id.btnPickDate);
+        btnPickDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 com.example.android_dev_carcool.DatePicker mDatePickerDialogFragment;
