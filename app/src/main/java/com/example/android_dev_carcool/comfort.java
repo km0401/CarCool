@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class comfort extends AppCompatActivity {
-    ImageView goBack;
+    ImageView goBack2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +17,13 @@ public class comfort extends AppCompatActivity {
         setContentView(R.layout.activity_comfort);
 
 
-        goBack = findViewById(R.id.goBackIconcomfortPage);
+        goBack2 = findViewById(R.id.goBackIconcomfortPage);
 
-        goBack.setOnClickListener(new View.OnClickListener() {
+        goBack2.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
-                                          Intent i = new Intent(v.getContext(), No_Of_Passenger_Publish_Ride.class);
-                                          startActivity(i);
+                                          Intent i2 = new Intent(v.getContext(), No_Of_Passenger_Publish_Ride.class);
+                                          startActivity(i2);
                                       }
                                   }
         );

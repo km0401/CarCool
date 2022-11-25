@@ -6,28 +6,27 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Booked_Ride extends AppCompatActivity {
 
-//    Button signUp;
-//    Button login;
+    ImageView goBack1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_confirm_ride);
+        setContentView(R.layout.activity_comfort);
 
-        Button Book = (Button) findViewById(R.id.search);
 
-        Book.setOnClickListener(new View.OnClickListener() {
+        goBack1 = findViewById(R.id.goBackBookedRidePage);
+
+        goBack1.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
-                                          Intent i = new Intent(Booked_Ride.this, Request_Sent.class);
-                                          startActivity(i);
+                                          Intent i1 = new Intent(v.getContext(),Landing_Page.class);
+                                          startActivity(i1);
                                       }
                                   }
         );
-
-
     }
 }

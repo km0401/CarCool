@@ -13,13 +13,13 @@ public class Confirm_Ride extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_ride);
 
-        Button Book = (Button) findViewById(R.id.search);
+        Button Book3 = (Button) findViewById(R.id.search);
 
-        Book.setOnClickListener(new View.OnClickListener() {
+        Book3.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent i = new Intent(Confirm_Ride.this, Request_Sent.class);
-                                        startActivity(i);
+                                        Intent i3 = new Intent(Confirm_Ride.this, Request_Sent.class);
+                                        startActivity(i3);
                                     }
                                 }
         );
