@@ -15,6 +15,13 @@
         android:layout_marginLeft="350dp"
         android:layout_marginTop="0.5dp"
         app:srcCompat="@drawable/img" />
+    <ImageView
+        android:id="@+id/goBackBookedRidePage"
+        android:layout_width="45dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="-60dp"
+        app:srcCompat="@drawable/back" />
 
     <TextView
         android:layout_width="match_parent"

@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class No_Of_Passenger_Publish_Ride extends AppCompatActivity {
-    ImageView goBack;
+    ImageView goBack5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +17,13 @@ public class No_Of_Passenger_Publish_Ride extends AppCompatActivity {
         setContentView(R.layout.activity_no_of_passenger_publish_ride);
 
 
-        goBack = findViewById(R.id.goBackIconPricePublishPage);
+        goBack5 = findViewById(R.id.goBackIconPricePublishPage);
 
-        goBack.setOnClickListener(new View.OnClickListener() {
+        goBack5.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
-                                          Intent i = new Intent(v.getContext(), comfort.class);
-                                          startActivity(i);
+                                          Intent i5 = new Intent(v.getContext(), comfort.class);
+                                          startActivity(i5);
                                       }
                                   }
         );
