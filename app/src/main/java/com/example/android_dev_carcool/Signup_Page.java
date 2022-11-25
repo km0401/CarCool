@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -26,10 +27,11 @@ public class Signup_Page extends AppCompatActivity {
     EditText cnf_pswd;
     EditText email;
     EditText password;
-    private FirebaseAuth auth = FirebaseAuth.getInstance();
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        FirebaseApp.initializeApp(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_page);
 
@@ -38,10 +40,10 @@ public class Signup_Page extends AppCompatActivity {
         email = findViewById(R.id.email_signup);
         name = findViewById(R.id.name_signup);
         mobile = findViewById(R.id.mob_signup);
+        password = findViewById(R.id.pswd_signup);
         cnf_pswd = findViewById(R.id.cnfm_pswd_signup);
 
-
-
+        auth = FirebaseAuth.getInstance();
         goBack.setOnClickListener(new View.OnClickListener() {
                                             @Override
                                             public void onClick(View v) {
@@ -65,7 +67,7 @@ public class Signup_Page extends AppCompatActivity {
                                            } else if (txt_pswd.length() < 6) {
                                                Toast.makeText(Signup_Page.this, "Password Too Short", Toast.LENGTH_SHORT).show();
                                            } else if (!txt_pswd.equals(txt_cpwd)) {
-                                               Toast.makeText(Signup_Page.this, "Password Too Short", Toast.LENGTH_SHORT).show();
+                                               Toast.makeText(Signup_Page.this, "Reconfirm Password", Toast.LENGTH_SHORT).show();
                                            } else {
                                                registerUser(txt_email, txt_pswd);
                                            }
@@ -80,6 +82,8 @@ public class Signup_Page extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(Signup_Page.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(Signup_Page.this, Login_Page.class));
+                    finish();
                 }
                 else{
                     Toast.makeText(Signup_Page.this, "Registration Failed", Toast.LENGTH_SHORT).show();

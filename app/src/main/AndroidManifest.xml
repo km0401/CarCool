@@ -21,6 +21,25 @@
             android:name=".PublishLeavingFromActivity"
             android:exported="false" />
         <activity
+            android:name=".No_Of_Passenger_Publish_Ride"
+            android:exported="false" />
+        <activity
+            android:name=".Booked_Ride"
+            android:exported="false" />
+        <activity
+            android:name=".comfort"
+            android:exported="false" />
+        <activity
+            android:name=".booking_time"
+            android:exported="false" />
+        <activity
+            android:name=".Confirm_Ride"
+            android:exported="false" />
+        <activity
+            android:name=".Request_Sent"
+            android:exported="false" />
+
+        <activity
             android:name=".Drop_Off_Publish_Ride"
             android:exported="false" />
         <activity
@@ -41,6 +60,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

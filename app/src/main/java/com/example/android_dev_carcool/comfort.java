@@ -8,21 +8,21 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class No_Of_Passenger_Publish_Ride extends AppCompatActivity {
+public class comfort extends AppCompatActivity {
     ImageView goBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_no_of_passenger_publish_ride);
+        setContentView(R.layout.activity_comfort);
 
 
-        goBack = findViewById(R.id.goBackIconPricePublishPage);
+        goBack = findViewById(R.id.goBackIconcomfortPage);
 
         goBack.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
-                                          Intent i = new Intent(v.getContext(), comfort.class);
+                                          Intent i = new Intent(v.getContext(), No_Of_Passenger_Publish_Ride.class);
                                           startActivity(i);
                                       }
                                   }
