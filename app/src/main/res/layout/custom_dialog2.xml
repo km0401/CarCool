@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/custom_dialog"
+        android:text="Add preferences"
         android:textSize="24sp"
         android:textColor="@color/black"
         android:layout_marginBottom="16dp"/>
@@ -15,10 +15,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/name"
+        android:hint="Write your preferences here"
         android:inputType="text"
         android:imeOptions="actionNext"
-        android:id="@+id/name_bio"/>
+        android:id="@+id/name_pref"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -27,5 +27,5 @@
         android:text="@string/submit"
         android:textColor="@color/white"
         android:background="@color/blue_main"
-        android:id="@+id/submit_button"/>
+        android:id="@+id/submit_button2"/>
 </LinearLayout>
