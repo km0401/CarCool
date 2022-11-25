@@ -17,6 +17,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserProfileChangeRequest;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Signup_Page extends AppCompatActivity {
 
@@ -70,6 +76,8 @@ public class Signup_Page extends AppCompatActivity {
                                                Toast.makeText(Signup_Page.this, "Reconfirm Password", Toast.LENGTH_SHORT).show();
                                            } else {
                                                registerUser(txt_email, txt_pswd);
+                                               FirebaseDatabase.getInstance().getReference().child("Users").child(txt_mob).child("Full Name").setValue(txt_name);
+                                               FirebaseDatabase.getInstance().getReference().child("Users").child(txt_mob).child("Email").setValue(txt_email);
                                            }
                                        }
                                    }
@@ -82,6 +90,10 @@ public class Signup_Page extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(Signup_Page.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                    FirebaseUser user = auth.getCurrentUser();
+                    String txt_name = name.getText().toString();
+                    UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                            .setDisplayName(txt_name).build();
                     startActivity(new Intent(Signup_Page.this, Login_Page.class));
                     finish();
                 }

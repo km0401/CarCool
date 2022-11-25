@@ -28,6 +28,7 @@
             app:srcCompat="@drawable/img" />
 
     </LinearLayout>
+
     <TextView
         android:layout_width="350dp"
         android:layout_height="147dp"
@@ -38,6 +39,28 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:hint="        Enter full address...."
+                android:textSize="22dp"
+                android:padding="20dp"
+                android:id="@+id/drop_off_publish"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <ImageView
         android:layout_width="wrap_content"

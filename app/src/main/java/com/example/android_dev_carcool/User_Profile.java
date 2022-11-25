@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class User_Profile extends AppCompatActivity {
 
@@ -23,7 +24,6 @@ public class User_Profile extends AppCompatActivity {
     TextView miniBio;
     TextView add_preferences;
     TextView pref;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +64,8 @@ public class User_Profile extends AppCompatActivity {
                 showCustomDialog2();
             }
         });
+
+        FirebaseDatabase.getInstance().getReference().child("UserDetails").push().setValue("abcd");
     }
 
     void showCustomDialog() {
