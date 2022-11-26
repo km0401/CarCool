@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Landing_Page"
+    tools:context=".Booked_Ride"
   >
-
 
     <ImageView
         android:id="@+id/imageView"
@@ -26,8 +25,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
         android:gravity="left"
@@ -36,11 +35,19 @@
         android:textSize="40dp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/next_arrow_icon"
+        android:id="@+id/next_icon_booked_ride"/>
+
     <androidx.cardview.widget.CardView
-        android:layout_width="450dp"
+        android:layout_width="350dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="590dp"
         app:cardCornerRadius="20dp"
         app:cardBackgroundColor="@color/grey_for_text">
 
@@ -162,15 +169,7 @@
 
 
 
+
     </androidx.cardview.widget.CardView>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="675dp"
-        app:menu="@menu/bottom_nav_menu" />
-
-
-
 
 </RelativeLayout>

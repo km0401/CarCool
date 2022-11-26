@@ -11,22 +11,29 @@ import android.widget.ImageView;
 public class Booked_Ride extends AppCompatActivity {
 
     ImageView goBack1;
+    ImageView next;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comfort);
+        setContentView(R.layout.activity_booked_ride);
 
 
         goBack1 = findViewById(R.id.goBackBookedRidePage);
+        next = findViewById(R.id.next_icon_booked_ride);
 
         goBack1.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
-                                          Intent i1 = new Intent(v.getContext(),Landing_Page.class);
-                                          startActivity(i1);
+                                          finish();
                                       }
                                   }
         );
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(view.getContext(), PastRides.class));
+            }
+        });
     }
 }

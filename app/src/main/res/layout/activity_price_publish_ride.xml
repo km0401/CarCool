@@ -47,7 +47,8 @@
             android:layout_height="wrap_content"
             android:src="@drawable/minus_icon"
             android:layout_marginTop="200dp"
-            android:layout_marginLeft="60dp"/>
+            android:layout_marginLeft="60dp"
+            android:id="@+id/decrement_icon_price"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,10 +56,11 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="170dp"
             android:gravity="center"
-            android:text="70"
+            android:text="50"
             android:textColor="@color/blue_main"
             android:textSize="70dp"
             android:textStyle="bold"
+            android:id="@+id/price_value"
             />
 
         <ImageView
@@ -66,7 +68,8 @@
             android:layout_height="wrap_content"
             android:src="@drawable/add_icon_big"
             android:layout_marginTop="200dp"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="35dp"
+            android:id="@+id/increment_icon_price"/>
 
         </LinearLayout>
 
@@ -75,6 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="270dp"
         android:layout_marginTop="400dp"
-        android:src="@drawable/next_arrow_icon" />
+        android:src="@drawable/next_arrow_icon"
+        android:id="@+id/next_icon_price_publish"/>
 
 </RelativeLayout>

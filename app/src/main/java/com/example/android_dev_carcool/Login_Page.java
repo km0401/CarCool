@@ -39,8 +39,7 @@ public class Login_Page extends AppCompatActivity {
         goBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainActivity.class);
-                startActivity(i);
+                finish();
             }
         }
         );
@@ -61,7 +60,7 @@ public class Login_Page extends AppCompatActivity {
             @Override
             public void onSuccess(AuthResult authResult) {
                 Toast.makeText(Login_Page.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(Login_Page.this, User_Profile.class));
+                startActivity(new Intent(Login_Page.this, Landing_Page.class));
             }
         });
     }

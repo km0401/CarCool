@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">CarCool</string>
     <string name="profile">Profile</string>
-    <string name="user_name">Khushi Mahawar</string>
+    <string name="user_name">Seema Mahawar</string>
     <string name="user_type">Newcomer</string>
     <string name="user_profile_verify">Verify your profile</string>
     <string name="user_profile_verify_id">Verify my ID</string>
-    <string name="user_profile_phone">+91 9785182311</string>
-    <string name="user_profile_email">mahawarkhushi3@gmail.com</string>
+    <string name="user_profile_phone">+91 7568163350</string>
+    <string name="user_profile_email">mahawarseema20@gmail.com</string>
     <string name="user_profile_about">About you</string>
     <string name="user_profile_write_bio">Write my mini bio</string>
     <string name="user_profile_preferences">Add my preferences</string>

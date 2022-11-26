@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Landing_Page"
+    tools:context=".PastRides"
     >
 
     <TextView
@@ -67,7 +67,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="257dp"
+        android:layout_marginTop="300dp"
         android:layout_marginBottom="504dp"
         android:gravity="center"
         android:text=" 07:10              Bhiwadi"
@@ -107,7 +107,7 @@
             android:layout_width="360dp"
             android:layout_height="2dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="470dp"
+            android:layout_marginTop="400dp"
             android:background="@color/black" />
     </LinearLayout>
 
@@ -115,7 +115,7 @@
         android:layout_width="389dp"
         android:layout_height="147dp"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="420dp"
         android:gravity="left"
         android:text=" Exchange Ratings "
         android:textColor="@color/blue_main"
@@ -127,7 +127,7 @@
         android:layout_width="389dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="470dp"
         android:gravity="left"
         android:text=" Mon 11 Jul, 17:50"
         android:textColor="@color/black"
@@ -138,7 +138,7 @@
         android:layout_width="389dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="520dp"
         android:gravity="left"
         android:text=" Wed 13 Jul, 12:50"
         android:textColor="@color/black"
@@ -150,7 +150,7 @@
         android:layout_width="389dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="700dp"
+        android:layout_marginTop="570dp"
         android:gravity="left"
         android:text=" Sat 11 Aug, 09:50"
         android:textColor="@color/black"
@@ -162,7 +162,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="350dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="470dp"
         app:srcCompat="@drawable/forward" />
 
     <ImageView
@@ -170,7 +170,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="350dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="520dp"
         app:srcCompat="@drawable/forward" />
 
     <ImageView
@@ -178,13 +178,33 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="350dp"
-        android:layout_marginTop="700dp"
+        android:layout_marginTop="570dp"
         app:srcCompat="@drawable/forward" />
 
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="825dp"
-        app:menu="@menu/bottom_nav_menu" />
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+            app:menu="@menu/bottom_nav_menu" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </RelativeLayout>

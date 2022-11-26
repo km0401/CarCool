@@ -16,7 +16,7 @@ public class Request_Sent extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_request_sent);
 
         Button OK1 = (Button) findViewById(R.id.OK1);
 

@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/goBackIconPricePublishPage"
+            android:id="@+id/goBackIconPickDatePage"
             android:layout_width="45dp"
             android:layout_height="200dp"
             android:layout_marginLeft="14dp"
@@ -45,9 +45,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="170dp"
-        android:textSize="30dp"
-        android:text="Date" />
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="Date"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/btnPickDate"
@@ -56,5 +58,13 @@
         android:layout_below="@+id/tvSelectedDate"
         android:layout_centerInParent="true"
         android:text="Pick Date" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/next_arrow_icon"
+        android:id="@+id/next_icon_pick_date_publish"/>
 
 </RelativeLayout>

@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/goBackIconPricePublishPage"
+            android:id="@+id/goBackIconNoOfPassengerPage"
             android:layout_width="45dp"
             android:layout_height="200dp"
             android:layout_marginLeft="14dp"
@@ -50,23 +50,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/minus_icon"
-            android:padding="30dp"/>
+            android:padding="30dp"
+            android:id="@+id/decrement_icon_passenger"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="3"
+            android:text="1"
             android:textColor="@color/blue_main"
             android:textSize="70dp"
             android:textStyle="bold"
+            android:id="@+id/no_of_passenger_value"
             />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/add_icon_big"
-            android:padding="30dp"/>
+            android:padding="30dp"
+            android:id="@+id/increment_icon_passenger"/>
 
     </LinearLayout>
 
@@ -75,6 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="270dp"
         android:layout_marginTop="400dp"
-        android:src="@drawable/next_arrow_icon" />
+        android:src="@drawable/next_arrow_icon"
+        android:id="@+id/next_icon_no_of_passenger_publish"/>
 
 </RelativeLayout>

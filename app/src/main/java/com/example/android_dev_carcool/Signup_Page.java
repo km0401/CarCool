@@ -53,8 +53,7 @@ public class Signup_Page extends AppCompatActivity {
         goBack.setOnClickListener(new View.OnClickListener() {
                                             @Override
                                             public void onClick(View v) {
-                                                Intent i = new Intent(v.getContext(), MainActivity.class);
-                                                startActivity(i);
+                                                finish();
                                             }
                                         }
         );

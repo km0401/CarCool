@@ -6,16 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Confirm_Ride extends AppCompatActivity {
+    ImageView back;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_ride);
 
-        Button Book3 = (Button) findViewById(R.id.search);
+        Button Book = (Button) findViewById(R.id.search);
+        back = findViewById(R.id.goBackIconConfirmRidePage);
 
-        Book3.setOnClickListener(new View.OnClickListener() {
+        Book.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
                                         Intent i3 = new Intent(Confirm_Ride.this, Request_Sent.class);
@@ -23,6 +27,13 @@ public class Confirm_Ride extends AppCompatActivity {
                                     }
                                 }
         );
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
 
     }

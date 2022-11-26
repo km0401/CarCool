@@ -27,9 +27,6 @@
             android:name=".Booked_Ride"
             android:exported="false" />
         <activity
-            android:name=".comfort"
-            android:exported="false" />
-        <activity
             android:name=".booking_time"
             android:exported="false" />
         <activity
@@ -46,10 +43,19 @@
             android:name=".Pick_Date_Publish"
             android:exported="false" />
         <activity
+            android:name=".Price_Publish_Ride"
+            android:exported="false" />
+        <activity
+            android:name=".Search_Results"
+            android:exported="false" />
+        <activity
             android:name=".Landing_Page"
             android:exported="false" />
         <activity
             android:name=".User_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".PastRides"
             android:exported="false" />
         <activity
             android:name=".Login_Page"

@@ -6,10 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".Search_Results">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/goBackSearchResults"
+            android:layout_width="45dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/img" />
+
+    </LinearLayout>
+
     <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
+        android:layout_width="340dp"
         android:layout_height="90dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="90dp"
         android:layout_marginLeft="30dp"
         app:cardCornerRadius="20dp"
         app:cardBackgroundColor="@color/grey_for_text"
@@ -50,10 +73,10 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardId1"
-        android:layout_width="350dp"
+        android:layout_width="340dp"
         android:layout_height="110dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="200dp"
         app:cardCornerRadius="20dp">
 
         <TextView
@@ -119,58 +142,56 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="30dp"
         android:id="@+id/cardId2"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
         app:cardCornerRadius="20dp">
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bhiwadi"
             android:layout_margin="30dp"
-            android:textColor="@color/black"
-            android:textSize="17dp"
             android:gravity="center"
-            android:textStyle="normal"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Rs. 200"
-            android:layout_margin="30dp"
+            android:text="Bhiwadi"
             android:textColor="@color/black"
             android:textSize="17dp"
-            android:gravity="right"
-            android:textStyle="normal"
-            />
+            android:textStyle="normal" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="07:10"
             android:layout_margin="30dp"
+            android:gravity="right"
+            android:text="Rs. 200"
             android:textColor="@color/black"
             android:textSize="17dp"
-            android:gravity="left"
-            android:textStyle="normal"
-            />
+            android:textStyle="normal" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="08:20"
+            android:layout_margin="30dp"
+            android:gravity="left"
+            android:text="07:10"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="29dp"
             android:layout_marginTop="40dp"
             android:gravity="left"
             android:paddingTop="20dp"
             android:paddingRight="110dp"
+            android:text="08:20"
             android:textColor="@color/black"
             android:textSize="17dp"
-            android:textStyle="normal"
-            />
+            android:textStyle="normal" />
 
         <TextView
             android:layout_width="match_parent"
@@ -190,10 +211,10 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardId3"
-        android:layout_width="350dp"
+        android:layout_width="340dp"
         android:layout_height="110dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="460dp"
         app:cardCornerRadius="20dp">
 
 
@@ -257,58 +278,56 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="570dp"
-        android:layout_marginLeft="30dp"
         android:id="@+id/cardId4"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
         app:cardCornerRadius="20dp">
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bhiwadi"
             android:layout_margin="30dp"
-            android:textColor="@color/black"
-            android:textSize="17dp"
             android:gravity="center"
-            android:textStyle="normal"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Rs. 200"
-            android:layout_margin="30dp"
+            android:text="Bhiwadi"
             android:textColor="@color/black"
             android:textSize="17dp"
-            android:gravity="right"
-            android:textStyle="normal"
-            />
+            android:textStyle="normal" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="07:10"
             android:layout_margin="30dp"
+            android:gravity="right"
+            android:text="Rs. 200"
             android:textColor="@color/black"
             android:textSize="17dp"
-            android:gravity="left"
-            android:textStyle="normal"
-            />
+            android:textStyle="normal" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="08:20"
+            android:layout_margin="30dp"
+            android:gravity="left"
+            android:text="07:10"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="29dp"
             android:layout_marginTop="40dp"
             android:gravity="left"
             android:paddingTop="20dp"
             android:paddingRight="110dp"
+            android:text="08:20"
             android:textColor="@color/black"
             android:textSize="17dp"
-            android:textStyle="normal"
-            />
+            android:textStyle="normal" />
 
         <TextView
             android:layout_width="match_parent"
@@ -325,23 +344,5 @@
 
 
     </androidx.cardview.widget.CardView>
-
-
-    <Button
-        android:id="@+id/search_button"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="720dp"
-        android:backgroundTint="@color/blue_main"
-        android:text="Filter"
-        android:textColor="@color/white" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="640dp"
-        android:layout_marginBottom="6dp"
-        app:menu="@menu/bottom_nav_menu" />
 
 </RelativeLayout>
